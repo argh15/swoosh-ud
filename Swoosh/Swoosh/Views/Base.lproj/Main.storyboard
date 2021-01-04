@@ -20,8 +20,8 @@
                                 <rect key="frame" x="0.0" y="44" width="428" height="848"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8Z-02-1DY">
-                                <rect key="frame" x="74.666666666666686" y="172" width="279" height="76.666666666666686"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="56"/>
+                                <rect key="frame" x="89.333333333333329" y="172" width="249.66666666666669" height="67.333333333333314"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="56"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -32,14 +32,14 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6w-CJ-8MN">
-                                <rect key="frame" x="77" y="248.66666666666666" width="274" height="38.333333333333343"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="28"/>
+                                <rect key="frame" x="92.666666666666671" y="239.33333333333334" width="242.66666666666663" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaC-yr-1jW">
-                                <rect key="frame" x="24" y="359" width="380" height="54.666666666666686"/>
-                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                <rect key="frame" x="48" y="345" width="332" height="48.333333333333314"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -49,7 +49,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="xcN-oq-MYv"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="26"/>
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -62,11 +62,11 @@
                             <constraint firstItem="W5n-OI-F6w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="918-Rw-HCp"/>
                             <constraint firstItem="Hw3-dL-73h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Cbe-u7-7J5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hKH-5k-vsS" secondAttribute="trailing" constant="24" id="JEx-8I-1uP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UaC-yr-1jW" secondAttribute="trailing" constant="24" id="NOf-VU-gtg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UaC-yr-1jW" secondAttribute="trailing" constant="48" id="NOf-VU-gtg"/>
                             <constraint firstItem="p8Z-02-1DY" firstAttribute="top" secondItem="W5n-OI-F6w" secondAttribute="bottom" constant="64" id="SD2-wd-7Yy"/>
                             <constraint firstItem="Hw3-dL-73h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Y9s-Jb-UyL"/>
                             <constraint firstItem="z6w-CJ-8MN" firstAttribute="top" secondItem="p8Z-02-1DY" secondAttribute="bottom" id="aFe-Zs-vJF"/>
-                            <constraint firstItem="UaC-yr-1jW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="ePL-2B-fct"/>
+                            <constraint firstItem="UaC-yr-1jW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="ePL-2B-fct"/>
                             <constraint firstItem="UaC-yr-1jW" firstAttribute="top" secondItem="z6w-CJ-8MN" secondAttribute="bottom" constant="72" id="eU3-i4-DJz"/>
                             <constraint firstItem="Hw3-dL-73h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jfw-v8-cC0"/>
                             <constraint firstItem="hKH-5k-vsS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="n4R-uQ-rfy"/>
