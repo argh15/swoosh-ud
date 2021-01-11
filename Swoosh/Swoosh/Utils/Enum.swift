@@ -7,8 +7,17 @@
 
 import Foundation
 
-enum LeagueType {
-    case mens,
-         womens,
-         coed
+enum LeagueType: String{
+    case mens = "mens",
+         womens = "womens",
+         coed = "coed",
+         none = ""
 }
+
+enum SkillType: String{
+    case beginner = "beginner",
+         baller = "baller",
+         none = ""
+}
+
+

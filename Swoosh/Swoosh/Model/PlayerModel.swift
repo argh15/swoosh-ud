@@ -10,5 +10,5 @@ import Foundation
 struct Player {
     
     var leagueType: LeagueType?
-    var skillLevel: String?
+    var skillLevel: SkillType?
 }
