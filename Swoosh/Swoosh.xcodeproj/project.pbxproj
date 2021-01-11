@@ -15,6 +15,8 @@
 		7584C2852559A28200620747 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584C2842559A28200620747 /* WelcomeVC.swift */; };
 		7584C2882559A28200620747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7584C2862559A28200620747 /* Main.storyboard */; };
 		7584C28A2559A28500620747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7584C2892559A28500620747 /* Assets.xcassets */; };
+		7589F27925AC985E001229A6 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589F27825AC985E001229A6 /* PlayerModel.swift */; };
+		7589F27D25AC9AF7001229A6 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7589F27C25AC9AF7001229A6 /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		7584C2872559A28200620747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7584C2892559A28500620747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7584C28E2559A28500620747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7589F27825AC985E001229A6 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		7589F27C25AC9AF7001229A6 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		756F086B25A4DCF4008C8A7F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7589F27825AC985E001229A6 /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -86,6 +91,7 @@
 		7584C27F2559A28200620747 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				7589F27B25AC9AE8001229A6 /* Utils */,
 				756F086B25A4DCF4008C8A7F /* Model */,
 				756F086A25A4DCED008C8A7F /* Controller */,
 				756F082925A385CC008C8A7F /* View */,
@@ -95,6 +101,14 @@
 				7584C28E2559A28500620747 /* Info.plist */,
 			);
 			path = Swoosh;
+			sourceTree = "<group>";
+		};
+		7589F27B25AC9AE8001229A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7589F27C25AC9AF7001229A6 /* Enum.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,10 +182,12 @@
 			files = (
 				756F086E25A4DD65008C8A7F /* LeagueVC.swift in Sources */,
 				756F082525A37BD0008C8A7F /* CustomButton.swift in Sources */,
+				7589F27D25AC9AF7001229A6 /* Enum.swift in Sources */,
 				7584C2852559A28200620747 /* WelcomeVC.swift in Sources */,
 				7584C2812559A28200620747 /* AppDelegate.swift in Sources */,
 				756F087125A4DD8C008C8A7F /* SkillVC.swift in Sources */,
 				7584C2832559A28200620747 /* SceneDelegate.swift in Sources */,
+				7589F27925AC985E001229A6 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
